@@ -7,4 +7,4 @@ exec goatcounter serve \
   -listen "0.0.0.0:8081" \
   -smtp "$SMTP_URL" \
   -db "$DB_URL" \
-  -auth "$AUTH"
+  -email-from "$EMAIL_FROM"
